@@ -1,0 +1,43 @@
+# Operating System
+.DS_Store
+Thumbs.db
+*.log
+
+# Node.js / Frontend
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.cache/
+frontend/coverage/
+*.tsbuildinfo
+
+# Python / Backend
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/*/*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database & Storage
+backend/*.db
+backend/*.sqlite3
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Environment Files
+.env
+backend/.env
+frontend/.env
+*.env.local
+*.env.production
+
+# IDEs
+.vscode/
+.idea/
+*.swp
